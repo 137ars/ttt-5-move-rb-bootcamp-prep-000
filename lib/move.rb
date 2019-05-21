@@ -13,7 +13,10 @@ def input_to_index(user_input)
   user_input = user_input - 1
 end
 
-def move
+def move(array, index, value)
+  array[index] = value
+  return array
+end
   
 
 # code your input_to_index and move method here!
