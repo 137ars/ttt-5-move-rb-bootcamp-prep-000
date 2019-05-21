@@ -9,7 +9,7 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  user_input.to_i = gets.strip
+  user_input = gets.to_i
 end
   
 
